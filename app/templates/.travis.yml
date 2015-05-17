@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "node"
+  - "iojs"
+
+notifications:
+  slack: SLACK_ORG:SLACK_TOKEN
+
+before_install:
+  - npm i -g codeclimate-test-reporter
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+
+after_script:
+  - CODECLIMATE_REPO_TOKEN=CODECLIMATE_TOKEN codeclimate < report/jasmine-coverage/lcov.info

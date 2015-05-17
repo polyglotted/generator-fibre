@@ -1,0 +1,27 @@
+{
+  "name": "<%=name%>",
+  "description": "",
+  "version": "0.0.0",
+  "main": "lib/<%=name%>.js",
+  "main-es6": "src/<%=name%>.es6",
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build",
+    "compile": "gulp build:node",
+    "prepublish": "npm run prepublish"
+  },
+  "author": {
+    "name": "<%=userName%>",
+    "email": "<%=userEmail%>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<%=repoUrl%>"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-fibre-tasks": "^1.0.5"
+  },
+  "dependencies": {}
+}
