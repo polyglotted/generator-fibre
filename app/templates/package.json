@@ -8,7 +8,7 @@
     "test": "gulp test",
     "build": "gulp build",
     "compile": "gulp build:node",
-    "prepublish": "npm run prepublish"
+    "prepublish": "npm run compile"
   },
   "author": {
     "name": "<%=userName%>",

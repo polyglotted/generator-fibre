@@ -4,12 +4,11 @@
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "ahmednuaman/generator-fibre",
-  "author": {
-    "name": "Ahmed Nuaman",
-    "email": "ahmed@ahmednuaman.com",
-    "url": "https://github.com/ahmednuaman"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/polyglotted/generator-fibre.git"
   },
+  "author": "Ahmed Nuaman (ahmed@polyglotted.io)",
   "scripts": {
     "test": "mocha"
   },
