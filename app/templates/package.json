@@ -6,13 +6,17 @@
   "main-es6": "src/<%=name%>.es6",
   "scripts": {
     "test": "gulp test",
-    "build": "gulp build",
-    "compile": "gulp build:node"
+    "build": "gulp build"
   },
   "author": {
     "name": "<%=userName%>",
     "email": "<%=userEmail%>"
   },
+  "files": [
+    "dist/",
+    "lib/",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "<%=repoUrl%>"
